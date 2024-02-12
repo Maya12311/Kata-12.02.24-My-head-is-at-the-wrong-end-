@@ -1,0 +1,12 @@
+public class WrongEndHead {
+  public static String[] fixTheMeerkat(String[] arr) {
+    
+   String end =  arr[0];
+    String beginning = arr[2];
+    
+    arr[0] = beginning;
+    arr[2] = end;
+    
+    return arr;
+  }
+}
